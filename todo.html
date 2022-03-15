@@ -2,25 +2,58 @@
 <html>
     <head>
         <title>To-Do List App</title>
+        <link href="styles.css" rel="stylesheet" /> 
+        <style>
+            h1 {
+                color: blue;
+                font-size:20px;
+                font-style: italic;
+            }
+            div {
+                height: 150px;
+                width: 150px; 
+                padding: 20px;
+                border: 2px solid black;
+
+            }
+            body {
+                margin: 20px;
+                padding:20px;
+                background-color: pink;
+            }
+            #first {
+                background-color: teal;
+                width:150px;
+                height:150px;
+            }
+            #second {
+                background-color: blue;
+                width:100px;
+                height:100px;
+            }
+            #third {
+                background-color: green;
+                width:50px;
+                height:50px;
+            }
+            #fourth {
+                background-color: brown;
+                width:25px;
+                height:25px;
+            }
+             
+        </style>
         
     </head>
     <body>
-        <form>
-            <label for="Profile">Profile Photo</label>
-            <input id="Profile" type="file" accept=".png,.pdf" />
-
-                <label for="first-name">First Name</label> 
-            <input id="first-name" required placeholder="Name" type="text"/><br>
-                <label for="website">Website</label>
-            <input id="website" required placeholder="Name" type="date"/><br>
-
-
-            <input required placeholder="UserName" minlength="10" type="text"/><br>
-            <input required placeholder="Password" type="password"/>
-            <input type="submit" value="Create Count" /><br>
-            <input type="file" accept=".jpg"><br>
-        </form>
-        <h1 style="border: 1cm">블록체인</h1>
-
+        <div id="first">
+            <div id="second">
+                <div id="third">
+                    <span>hello</span>
+                </div>
+            </div>
+        </div>
+        <div></div>
+        <div></div>
     </body>
 </html>
