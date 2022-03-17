@@ -8,23 +8,23 @@
         <div><h1>Create An Account</h1></div>
         <div>
             <label>First name</label>
-            <input placeholder="First name" type="text"><br>
+            <input required placeholder="First name" type="text"><br>
             <label>Last name</label>
-            <input placeholder="Last name" type="text"><br>
+            <input required placeholder="Last name" type="text"><br>
             <label>Email</label>
-            <input placeholder="Email" type="text"><br>
+            <input required placeholder="Email" type="text"><br>
             <label>Username</label>
-            <input placeholder="Username" type="text"><br>
+            <input required placeholder="Username" type="text"><br>
             <label>Password</label>
-            <input placeholder="Password" type="password"><br>
+            <input required placeholder="Password" minlength="10" type="password"><br>
             <label>Birth date</label>
-            <input type="date"><br>
+            <input required type="date"><br>
             <label >How happy are you?</label>
-            <input type="te"><br>
+            <input type="range" min="0" max="100" list="tickmarks"><br>
 
             <label >What is fav. color</label>
             <input type="color"><br>
-            <button>Create Account</button>
+            <input type="submit" value="Create Account">
         </div>
 
     </body>
